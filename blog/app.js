@@ -9,8 +9,14 @@ let Footer = () => {
 }
 
 let Blog = () => {
-    return <span>Make this Component render the header, article, and footer</span>
+    return (<div>
+        <Header/>
+        <Article/>
+        <Footer/>
+        </div>)
 }
 
 
+
 ReactDOM.render(<Blog />, document.getElementById('root'))
+
